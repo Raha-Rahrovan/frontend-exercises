@@ -1,0 +1,82 @@
+:root {
+    --blue-500: hsl(215, 51%, 70%);
+    --cyan-400: hsl(178, 100%, 50%);
+    --Blue-950: hsl(217, 54%, 11%);
+    --Blue-900: hsl(216, 50%, 16%);
+    --Blue-800: hsl(215, 32%, 27%);
+    --White: hsl(0, 0%, 100%);
+}
+body {
+    background-color: var(--Blue-950);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.card {
+    width: 300px;
+    padding: 20px;
+    margin: 40px;
+    border-radius: 15px;
+    background-color: var(--Blue-900);
+    color: var(--White);
+}
+
+.card-pic {
+    display: block;
+    border-radius: 15px;
+    width: 260px;
+    margin: auto;
+}
+
+.image-avatar {
+    border: 1px solid #fff;
+    width: 40px;
+    height: 40px;
+    display: inline;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.card-title {
+    margin: 20px 0px;
+}
+.card-info {
+    font-size: 16px;
+    color: var(--blue-500);
+}
+.card-design {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 0;
+    font-size: 15px;
+}
+.card-design .card-cost {
+    display: flex;
+    align-items: center;
+    color: var(--cyan-400);
+}
+.card-design .card-cost img {
+    margin-right: 5px;
+}
+.card-design .card-time {
+    color: var(--blue-500);
+    display: flex;
+    align-items: center;
+}
+.card-design .card-time img {
+    margin-right: 3px;
+}
+.card-avatar {
+    border-top: 1px solid var(--blue-500);
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+}
+.card-avatar .card-creation {
+    margin-right: 5px;
+    color: var(--blue-500);
+}
